@@ -1,0 +1,59 @@
+name: fastib2pci
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  pci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.10.0'
+      - name: checkout ee
+        run: git clone https://github.com/DIPFtba/ee4pci.git ./ee
+      - name: checkout items
+        uses: actions/checkout@v3
+        with: 
+            path: 'items'        
+      - name: checkout generic pci (tao)
+        run: git clone https://github.com/DIPFtba/ibTaoPciRemote.git ./pci_generic_tao
+      - name: checkout generic pci (ims)
+        run: git clone -b ims https://github.com/DIPFtba/ibTaoPciRemote.git ./pci_generic_ims
+      - name: checkout specific pci (tao)
+        run: git clone https://github.com/quark-s/oat-ibtaoembedded.git ./pci_specific_tao
+      - name: checkout specific pci (ims)
+        run: git clone -b ims https://github.com/quark-s/oat-ibtaoembedded.git ./pci_specific_ims        
+      - name: setup ee
+        run: |
+            npm install --prefix ./ee/ee
+      - name: run build script
+        run: |
+            export REPONAME="${GITHUB_REPOSITORY#*/}"
+            mkdir ./public
+            npm install -D @playwright/test
+            npx playwright install --with-deps
+            npm install -g live-server
+            npm install ejs
+            mkdir ./items/scripts && cp -r ./ee/worker_scripts/* ./items/scripts/
+            chmod +x ./items/scripts/build.sh
+            ./items/scripts/build.sh
+      - name: Deploy EE to gh-pages
+        uses: s0/git-publish-subdir-action@develop
+        env:
+            REPO: self
+            BRANCH: gh-pages
+            FOLDER: public
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: release pci packages
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: ${{github.workspace}}/*.tar
+          replacesArtifacts: true
+          removeArtifacts: true
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          tag: "latest"
+          allowUpdates: true
