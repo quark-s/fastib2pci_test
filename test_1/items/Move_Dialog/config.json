@@ -1,0 +1,587 @@
+{
+  "runtimeCompatibilityVersion" : "10.0.0",
+  "name" : "Move_Dialog",
+  "pages" : [ {
+    "name" : "page1",
+    "isRightToLeft" : false,
+    "closable" : true,
+    "content" : {
+      "type" : "CbaContainer",
+      "config" : {
+        "position" : {
+          "x" : 0,
+          "y" : 0,
+          "width" : 1920,
+          "height" : 1080
+        },
+        "font" : {
+          "name" : "Segoe UI",
+          "size" : 11,
+          "alignmentHorizontal" : "left",
+          "bold" : false,
+          "italic" : false,
+          "underlined" : false
+        },
+        "color" : {
+          "text" : {
+            "default" : "rgba(0, 0, 0, 1)",
+            "disabled" : "rgba(167, 166, 170, 1)"
+          },
+          "background" : {
+            "default" : "rgba(255, 255, 255, 1)"
+          }
+        },
+        "border" : {
+          "style" : "none",
+          "width" : 0,
+          "radius" : 0,
+          "color" : {
+            "default" : "rgba(176, 176, 176, 1)",
+            "disabled" : "rgba(210,210,210,1)"
+          }
+        },
+        "transform" : { },
+        "state" : {
+          "disabled" : false,
+          "selected" : false,
+          "hidden" : false
+        },
+        "text" : { },
+        "image" : {
+          "displayMode" : "none"
+        },
+        "cursor" : {
+          "standard" : "auto"
+        },
+        "tabIndex" : -1,
+        "event" : { },
+        "classifiers" : [ ],
+        "link" : { },
+        "userDefinedId" : "$14117207796300",
+        "pageEditId" : "_6rxQgFajEeuMhrHBi5UcKQ",
+        "trace" : {
+          "skipTrace" : false,
+          "type" : "Container"
+        },
+        "autoLayoutLayer" : "none",
+        "cssClassNames" : [ "Frame" ],
+        "contributeVariable" : false,
+        "cbaChildren" : [ {
+          "type" : "CbaContainer",
+          "config" : {
+            "position" : {
+              "x" : 0,
+              "y" : 0,
+              "width" : 1920,
+              "height" : 1080
+            },
+            "font" : {
+              "name" : "Segoe UI",
+              "size" : 11,
+              "alignmentHorizontal" : "left",
+              "bold" : false,
+              "italic" : false,
+              "underlined" : false
+            },
+            "color" : {
+              "text" : {
+                "default" : "rgba(0, 0, 0, 1)",
+                "disabled" : "rgba(167, 166, 170, 1)"
+              },
+              "background" : {
+                "default" : "rgba(166, 193, 152, 1)"
+              }
+            },
+            "border" : {
+              "style" : "none",
+              "width" : 0,
+              "radius" : 0,
+              "color" : {
+                "default" : "rgba(176, 176, 176, 1)",
+                "disabled" : "rgba(210,210,210,1)"
+              }
+            },
+            "transform" : { },
+            "state" : {
+              "disabled" : false,
+              "selected" : false,
+              "hidden" : false
+            },
+            "text" : { },
+            "image" : {
+              "displayMode" : "none"
+            },
+            "cursor" : {
+              "standard" : "auto"
+            },
+            "tabIndex" : -1,
+            "event" : { },
+            "classifiers" : [ ],
+            "link" : { },
+            "userDefinedId" : "$14117207802800",
+            "pageEditId" : "_7iBjEFajEeuMhrHBi5UcKQ",
+            "trace" : {
+              "skipTrace" : false,
+              "type" : "Panel"
+            },
+            "autoLayoutLayer" : "none",
+            "cssClassNames" : [ "Panel" ],
+            "contributeVariable" : false,
+            "cbaChildren" : [ {
+              "type" : "CbaButton",
+              "config" : {
+                "position" : {
+                  "x" : 170,
+                  "y" : 270,
+                  "width" : 285,
+                  "height" : 90
+                },
+                "font" : {
+                  "name" : "Segoe UI",
+                  "size" : 26,
+                  "alignmentHorizontal" : "center",
+                  "bold" : false,
+                  "italic" : false,
+                  "underlined" : false
+                },
+                "color" : {
+                  "text" : {
+                    "default" : "rgba(0, 0, 0, 1)",
+                    "selected" : "rgba(0, 0, 0, 1)",
+                    "visited" : "rgba(0, 0, 0, 1)",
+                    "disabled" : "rgba(167, 166, 170, 1)"
+                  },
+                  "background" : {
+                    "default" : "rgba(255, 255, 255, 1)"
+                  }
+                },
+                "border" : {
+                  "style" : "outset",
+                  "width" : 1,
+                  "radius" : 2,
+                  "color" : {
+                    "default" : "rgba(176, 176, 176, 1)",
+                    "disabled" : "rgba(210,210,210,1)"
+                  }
+                },
+                "transform" : { },
+                "state" : {
+                  "disabled" : false,
+                  "selected" : false,
+                  "hidden" : false
+                },
+                "text" : {
+                  "label" : "OPEN DIALOG"
+                },
+                "image" : {
+                  "displayMode" : "none"
+                },
+                "cursor" : {
+                  "standard" : "auto"
+                },
+                "tabIndex" : -1,
+                "event" : { },
+                "classifiers" : [ ],
+                "link" : {
+                  "page" : "page2",
+                  "pageAreaType" : "dialog",
+                  "pageAreaName" : "standard"
+                },
+                "userDefinedId" : "$14152804577100",
+                "pageEditId" : "_TOB7UAFWEe-tjZGa0RA7FA",
+                "trace" : {
+                  "skipTrace" : false,
+                  "type" : "Button"
+                },
+                "autoLayoutLayer" : "none",
+                "cssClassNames" : [ "Button" ],
+                "contributeVariable" : false,
+                "highlight" : "none",
+                "selectionHandlerType" : "none",
+                "toggleType" : "none"
+              }
+            } ]
+          }
+        } ],
+        "selectGroups" : [ {
+          "name" : "/page=page1/index=0",
+          "blockSelectionChanges" : true,
+          "enforceSingleSelect" : true,
+          "allowDeselect" : true
+        } ],
+        "propagationGroups" : [ {
+          "name" : "/page=page1/index=0",
+          "memberIndexPaths" : [ ]
+        } ]
+      }
+    }
+  }, {
+    "name" : "page2",
+    "isRightToLeft" : false,
+    "closable" : true,
+    "content" : {
+      "type" : "CbaContainer",
+      "config" : {
+        "position" : {
+          "x" : 1000,
+          "y" : 500,
+          "width" : 700,
+          "height" : 300
+        },
+        "font" : {
+          "name" : "Segoe UI",
+          "size" : 11,
+          "alignmentHorizontal" : "left",
+          "bold" : false,
+          "italic" : false,
+          "underlined" : false
+        },
+        "color" : {
+          "text" : {
+            "default" : "rgba(0, 0, 0, 1)",
+            "disabled" : "rgba(167, 166, 170, 1)"
+          },
+          "background" : {
+            "default" : "rgba(255, 255, 255, 1)"
+          }
+        },
+        "border" : {
+          "style" : "none",
+          "width" : 0,
+          "radius" : 0,
+          "color" : {
+            "default" : "rgba(176, 176, 176, 1)",
+            "disabled" : "rgba(210,210,210,1)"
+          }
+        },
+        "transform" : { },
+        "state" : {
+          "disabled" : false,
+          "selected" : false,
+          "hidden" : false
+        },
+        "text" : { },
+        "image" : {
+          "displayMode" : "none"
+        },
+        "cursor" : {
+          "standard" : "auto"
+        },
+        "tabIndex" : -1,
+        "event" : { },
+        "classifiers" : [ ],
+        "link" : { },
+        "userDefinedId" : "$14117205362800",
+        "pageEditId" : "_6rxQgFajEeuMhrHBi5UcKQ",
+        "trace" : {
+          "skipTrace" : false,
+          "type" : "Container"
+        },
+        "autoLayoutLayer" : "none",
+        "cssClassNames" : [ "Frame", "testclass" ],
+        "contributeVariable" : false,
+        "cbaChildren" : [ {
+          "type" : "CbaContainer",
+          "config" : {
+            "position" : {
+              "x" : 0,
+              "y" : 0,
+              "width" : 700,
+              "height" : 300
+            },
+            "font" : {
+              "name" : "Segoe UI",
+              "size" : 11,
+              "alignmentHorizontal" : "left",
+              "bold" : false,
+              "italic" : false,
+              "underlined" : false
+            },
+            "color" : {
+              "text" : {
+                "default" : "rgba(0, 0, 0, 1)",
+                "disabled" : "rgba(167, 166, 170, 1)"
+              },
+              "background" : {
+                "default" : "rgba(255, 255, 255, 1)"
+              }
+            },
+            "border" : {
+              "style" : "none",
+              "width" : 0,
+              "radius" : 0,
+              "color" : {
+                "default" : "rgba(176, 176, 176, 1)",
+                "disabled" : "rgba(210,210,210,1)"
+              }
+            },
+            "transform" : { },
+            "state" : {
+              "disabled" : false,
+              "selected" : false,
+              "hidden" : false
+            },
+            "text" : { },
+            "image" : {
+              "displayMode" : "none"
+            },
+            "cursor" : {
+              "standard" : "auto"
+            },
+            "tabIndex" : -1,
+            "event" : { },
+            "classifiers" : [ ],
+            "link" : { },
+            "userDefinedId" : "$14117205399700",
+            "pageEditId" : "_7iBjEFajEeuMhrHBi5UcKQ",
+            "trace" : {
+              "skipTrace" : false,
+              "type" : "Panel"
+            },
+            "autoLayoutLayer" : "none",
+            "cssClassNames" : [ "Panel" ],
+            "contributeVariable" : false,
+            "cbaChildren" : [ ]
+          }
+        } ],
+        "selectGroups" : [ {
+          "name" : "/page=page2/index=0",
+          "blockSelectionChanges" : true,
+          "enforceSingleSelect" : true,
+          "allowDeselect" : true
+        } ],
+        "propagationGroups" : [ {
+          "name" : "/page=page2/index=0",
+          "memberIndexPaths" : [ ]
+        } ]
+      }
+    }
+  } ],
+  "valueMaps" : [ ],
+  "variables" : [ ],
+  "tasks" : [ {
+    "name" : "task0",
+    "withEditContextMenu" : false,
+    "initialPage" : "page1",
+    "itemWidth" : 1920,
+    "itemHeight" : 1080,
+    "traceVariableValues" : false,
+    "cssStyles" : "",
+    "itemHighlightColor" : "rgba(255, 204, 102, 1)",
+    "highlightColors" : [ ],
+    "namedCalculations" : [ {
+      "name" : "hitsAccumulated",
+      "calculation" : 0
+    }, {
+      "name" : "hitsCount",
+      "calculation" : 0
+    }, {
+      "name" : "missesAccumulated",
+      "calculation" : 0
+    }, {
+      "name" : "missesCount",
+      "calculation" : 0
+    }, {
+      "name" : "classMaxWeighted",
+      "calculation" : 0
+    }, {
+      "name" : "classMaxName",
+      "calculation" : ""
+    }, {
+      "name" : "totalResult",
+      "calculation" : {
+        "operator" : "ifThenElse",
+        "params" : [ {
+          "name" : "if",
+          "value" : {
+            "operator" : "and",
+            "params" : [ {
+              "name" : "left",
+              "value" : {
+                "operator" : "greaterEqual",
+                "params" : [ {
+                  "name" : "left",
+                  "value" : {
+                    "operator" : "evaluateNamedCalculation",
+                    "params" : [ {
+                      "name" : "calculationName",
+                      "value" : "hitsCount"
+                    } ]
+                  }
+                }, {
+                  "name" : "right",
+                  "value" : 1
+                } ]
+              }
+            }, {
+              "name" : "right",
+              "value" : {
+                "operator" : "lessEqual",
+                "params" : [ {
+                  "name" : "left",
+                  "value" : {
+                    "operator" : "evaluateNamedCalculation",
+                    "params" : [ {
+                      "name" : "calculationName",
+                      "value" : "missesCount"
+                    } ]
+                  }
+                }, {
+                  "name" : "right",
+                  "value" : 0
+                } ]
+              }
+            } ]
+          }
+        }, {
+          "name" : "then",
+          "value" : 1
+        }, {
+          "name" : "else",
+          "value" : 0
+        } ]
+      }
+    }, {
+      "name" : "nbUserInteractions",
+      "calculation" : {
+        "operator" : "nbUserInteractions",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "nbUserInteractionsTotal",
+      "calculation" : {
+        "operator" : "nbUserInteractionsTotal",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "firstReactionTime",
+      "calculation" : {
+        "operator" : "firstReactionTime",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "firstReactionTimeTotal",
+      "calculation" : {
+        "operator" : "firstReactionTimeTotal",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "taskExecutionTime",
+      "calculation" : {
+        "operator" : "taskExecutionTime",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "taskExecutionTimeTotal",
+      "calculation" : {
+        "operator" : "taskExecutionTimeTotal",
+        "params" : [ ]
+      }
+    } ],
+    "scoreResult" : {
+      "attributes" : {
+        "resultText" : "",
+        "executionTimeStamp" : {
+          "operator" : "currentTimestamp",
+          "params" : [ ]
+        },
+        "nbInteractionsTotal" : {
+          "operator" : "nbUserInteractionsTotal",
+          "params" : [ ]
+        },
+        "nbInteractions" : {
+          "operator" : "nbUserInteractions",
+          "params" : [ ]
+        },
+        "reactionTimeTotal" : {
+          "operator" : "firstReactionTimeTotal",
+          "params" : [ ]
+        },
+        "reactionTime" : {
+          "operator" : "firstReactionTime",
+          "params" : [ ]
+        },
+        "execTimeTotal" : {
+          "operator" : "taskExecutionTimeTotal",
+          "params" : [ ]
+        },
+        "execTime" : {
+          "operator" : "taskExecutionTime",
+          "params" : [ ]
+        },
+        "scoreStatus" : "AUTOMATIC",
+        "classScoringModeHit" : "accumulatedWeights",
+        "classScoringModeMiss" : "accumulatedWeights",
+        "nbHits" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "hitsCount"
+          } ]
+        },
+        "nbMisses" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "missesCount"
+          } ]
+        },
+        "hitWeight" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "hitsAccumulated"
+          } ]
+        },
+        "missWeight" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "missesAccumulated"
+          } ]
+        },
+        "creditClass" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "classMaxName"
+          } ]
+        },
+        "creditWeight" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "classMaxWeighted"
+          } ]
+        },
+        "result" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "totalResult"
+          } ]
+        },
+        "name" : "task0"
+      },
+      "lists" : [ {
+        "name" : "hitList",
+        "elements" : [ ]
+      }, {
+        "name" : "missList",
+        "elements" : [ ]
+      }, {
+        "name" : "hitClassList",
+        "elements" : [ ]
+      }, {
+        "name" : "missClassList",
+        "elements" : [ ]
+      } ]
+    }
+  } ],
+  "usedResources" : {
+    "resources" : [ ],
+    "externalResources" : [ ],
+    "fontMappings" : [ ]
+  },
+  "dependencies" : [ ]
+}

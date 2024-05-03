@@ -1,0 +1,13 @@
+{
+    "traceLogTransmissionXXX": { 
+            "transmitUrl": "http://localhost:8101/ee4cba-api/trace",
+            "interval": 2000,
+            "httpTimeout": 10000
+        },
+    "mathJaxCdnUrl": "math-jax unknown",
+    "players": [
+        { "playerId": "A", "runtimeVersion": "10.0.0", "frameContentFile": "frameContent_10_0.html" },
+        { "playerId": "B", "runtimeVersion": "9.6.0", "frameContentFile": "frameContent_9_6.html" }
+    ],
+    "showPlayerInfo": false
+}
