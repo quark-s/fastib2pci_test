@@ -1,0 +1,115 @@
+{
+  "runtimeCompatibilityVersion" : "9.9.0",
+  "itemName" : "Heizkosten",
+  "itemWidth" : 1920,
+  "itemHeight" : 1080,
+  "tasks" : [ "Task01" ],
+  "resources" : [ {
+    "pathInZip" : "resources\\button_nextUnit.png",
+    "size" : 1344,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_1301.png",
+    "size" : 1764,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Ja_inaktiv_Grau_white_HalberSchatten_320x77.png",
+    "size" : 7849,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_0301.png",
+    "size" : 2073,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_1101.png",
+    "size" : 1781,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_1011.png",
+    "size" : 2369,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_1311.png",
+    "size" : 2293,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_1111.png",
+    "size" : 2279,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Warnung.png",
+    "size" : 2502,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Nein_aktiv_BlauTRButton_HalberSchatten_320x77.png",
+    "size" : 5665,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\F_0.png",
+    "size" : 302,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_1001.png",
+    "size" : 1861,
+    "type" : "image"
+  }, {
+    "pathInZip" : "resources\\Frage01_0001.png",
+    "size" : 2136,
+    "type" : "image"
+  } ],
+  "externalResources" : [ {
+    "pathInZip" : "external-resources\\calc.html",
+    "size" : 7528,
+    "type" : "urlTarget"
+  } ],
+  "dependencies" : [ ],
+  "variables" : [ {
+    "name" : "scaleVariable",
+    "type" : "integer"
+  }, {
+    "name" : "displayWidthVariable",
+    "type" : "integer"
+  }, {
+    "name" : "zValue",
+    "type" : "integer"
+  }, {
+    "name" : "memoryIndex",
+    "type" : "integer"
+  }, {
+    "name" : "V_N_Prev",
+    "type" : "integer"
+  }, {
+    "name" : "memoryPeek",
+    "type" : "integer"
+  }, {
+    "name" : "V_sin",
+    "type" : "integer"
+  }, {
+    "name" : "V_N_Next",
+    "type" : "integer"
+  }, {
+    "name" : "V_sin1",
+    "type" : "integer"
+  }, {
+    "name" : "V_xy",
+    "type" : "integer"
+  }, {
+    "name" : "V_N_End",
+    "type" : "integer"
+  }, {
+    "name" : "V_Link_01",
+    "type" : "integer"
+  }, {
+    "name" : "V_Solved_State_01",
+    "type" : "integer"
+  }, {
+    "name" : "V_Time",
+    "type" : "integer"
+  }, {
+    "name" : "V_TR",
+    "type" : "integer"
+  }, {
+    "name" : "V_Buttons",
+    "type" : "integer"
+  } ]
+}
