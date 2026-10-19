@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "debugMode": {
+      "type": "boolean",
+      "title": "debugMode",
+      "description": "Description for debugMode",
+      "default": null
+    },
+    "unitFile": {
+      "type": "string",
+      "title": "unitFile",
+      "description": "Name of the .voud file (in the units/ folder) to load into the verona-player",
+      "default": "MZTA14.voud"
+    },
+    "variablesFile": {
+      "type": "string",
+      "title": "variablesFile",
+      "description": "Name of the companion .xml file (in the units/ folder) declaring the unit's response variables",
+      "default": "MZTA14.xml"
+    },
+    "nextTaskEvent": {
+      "type": "string",
+      "title": "nextTaskEvent",
+      "description": "State machine event name triggered when the player requests navigation past the end of the unit; wire this event's transition to the next_task() DSL operator",
+      "default": "nextTask"
+    },
+    "previousTaskEvent": {
+      "type": "string",
+      "title": "previousTaskEvent",
+      "description": "State machine event name triggered when the player requests navigation before the start of the unit; wire this event's transition to the back_task() DSL operator",
+      "default": "previousTask"
+    }
+  }
+}

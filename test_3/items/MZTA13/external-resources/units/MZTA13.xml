@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Unit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/testcenter/17.4.1/definitions/vo_Unit.xsd">
+  <Metadata lastChange="2026-05-27T14:02:08.890Z">
+    <Id>MZTA13</Id>
+    <Label>PT03_Powertest Addition 4 </Label>
+    <Description/>
+    <Reference>MZTA13.vomd</Reference>
+  </Metadata>
+  <DefinitionRef player="iqb-player-aspect@2.12" editor="iqb-editor-aspect@2.12" lastChange="2026-01-16T14:01:53.933Z">MZTA13.voud</DefinitionRef>
+  <BaseVariables>
+    <Variable id="audio_1765539838469_1" alias="audio_1" type="number" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1765539838469_1" alias="text_2" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="cloze_1757425926611_1" alias="cloze_2" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_1" alias="01a" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_2" alias="01b" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_3" alias="01c" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_4" alias="01d" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1768331144891_1" alias="button_4" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768331144891_1" alias="text_4" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768331144891_2" alias="text_5" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1768331144891_2" alias="button_5" type="no-value" format="" nullable="false" multiple="false" page=""/>
+  </BaseVariables>
+  <CodingSchemeRef schemer="iqb-schemer@2.5" schemeType="iqb@3.0" lastChange="2026-05-12T15:10:18.320Z">MZTA13.vocs</CodingSchemeRef>
+  <DerivedVariables>
+    <Variable id="01" type="string" format="" nullable="false" multiple="false"/>
+  </DerivedVariables>
+</Unit>

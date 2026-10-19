@@ -1,0 +1,7 @@
+{
+  "debugMode" : false,
+  "unitFile" : "MZTA13.voud",
+  "variablesFile" : "MZTA13.xml",
+  "nextTaskEvent" : "EV_nextTask",
+  "previousTaskEvent" : "EV_previousTask"
+}

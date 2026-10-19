@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Unit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/testcenter/17.4.1/definitions/vo_Unit.xsd">
+  <Metadata lastChange="2026-05-27T14:01:39.789Z">
+    <Id>MZTA14</Id>
+    <Label>PT04_Powertest Addition 6</Label>
+    <Description/>
+    <Reference>MZTA14.vomd</Reference>
+  </Metadata>
+  <DefinitionRef player="iqb-player-aspect@2.12" editor="iqb-editor-aspect@2.12" lastChange="2026-01-15T13:37:30.568Z">MZTA14.voud</DefinitionRef>
+  <BaseVariables>
+    <Variable id="audio_1766387710301_1" alias="audio_5" type="number" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1766387710301_1" alias="text_2" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="image_1765193290609_1" alias="image_1" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="radio_1765193298097_1" alias="01a" type="integer" format="" nullable="false" multiple="false" page="">
+      <Values complete="true">
+        <Value>
+          <label>passt</label>
+          <value>1</value>
+        </Value>
+        <Value>
+          <label>passt nicht</label>
+          <value>2</value>
+        </Value>
+      </Values>
+    </Variable>
+    <Variable id="button_1768330996894_1" alias="button_6" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768330996895_1" alias="text_4" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768330996895_2" alias="text_5" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1768330996895_1" alias="button_7" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="image_1765288572204_1" alias="image_2" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="radio_1765288572204_1" alias="01b" type="integer" format="" nullable="false" multiple="false" page="">
+      <Values complete="true">
+        <Value>
+          <label>passt</label>
+          <value>1</value>
+        </Value>
+        <Value>
+          <label>passt nicht</label>
+          <value>2</value>
+        </Value>
+      </Values>
+    </Variable>
+    <Variable id="button_1768331024420_1" alias="button_8" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768331024420_1" alias="text_7" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768331024420_2" alias="text_8" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1768331024420_2" alias="button_9" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="image_1765288638997_1" alias="image_3" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="radio_1765288638997_1" alias="01c" type="integer" format="" nullable="false" multiple="false" page="">
+      <Values complete="true">
+        <Value>
+          <label>passt</label>
+          <value>1</value>
+        </Value>
+        <Value>
+          <label>passt nicht</label>
+          <value>2</value>
+        </Value>
+      </Values>
+    </Variable>
+    <Variable id="button_1768331038572_1" alias="button_10" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768331038572_1" alias="text_9" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1768331038572_2" alias="text_10" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1768331038572_2" alias="button_11" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="image_1765288649706_1" alias="image_4" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="radio_1765288649706_1" alias="01d" type="integer" format="" nullable="false" multiple="false" page="">
+      <Values complete="true">
+        <Value>
+          <label>passt</label>
+          <value>1</value>
+        </Value>
+        <Value>
+          <label>passt nicht</label>
+          <value>2</value>
+        </Value>
+      </Values>
+    </Variable>
+    <Variable id="button_1767974696526_1" alias="button_12" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_31" alias="text_31" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1767974524489_1" alias="text_6" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1766065141164_2" alias="button_13" type="no-value" format="" nullable="false" multiple="false" page=""/>
+  </BaseVariables>
+  <CodingSchemeRef schemer="iqb-schemer@2.5" schemeType="iqb@3.0" lastChange="2026-05-27T14:01:25.920Z">MZTA14.vocs</CodingSchemeRef>
+  <DerivedVariables>
+    <Variable id="01" type="integer" format="" nullable="false" multiple="false"/>
+  </DerivedVariables>
+</Unit>

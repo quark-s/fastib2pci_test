@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Unit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/iqb-berlin/testcenter/17.4.1/definitions/vo_Unit.xsd">
+  <Metadata lastChange="2026-05-27T14:02:03.711Z">
+    <Id>MZTA12</Id>
+    <Label>PT02_Powertest Addition 3</Label>
+    <Description/>
+    <Reference>MZTA12.vomd</Reference>
+  </Metadata>
+  <DefinitionRef player="iqb-player-aspect@2.12" editor="iqb-editor-aspect@2.12" lastChange="2026-01-16T14:01:43.650Z">MZTA12.voud</DefinitionRef>
+  <BaseVariables>
+    <Variable id="audio_1765284416729_1" alias="audio_2" type="number" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1765284416729_1" alias="text_1" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="image_1758793882024_1" alias="image_2" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="cloze_1757425926611_1" alias="cloze_1" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_1" alias="01a" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_2" alias="01b" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_3" alias="01c" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text-field-simple_1757425952069_4" alias="01d" type="string" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1767974696526_1" alias="button_2" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_31" alias="text_31" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="text_1767974524489_1" alias="text_6" type="no-value" format="" nullable="false" multiple="false" page=""/>
+    <Variable id="button_1766065141164_2" alias="button_3" type="no-value" format="" nullable="false" multiple="false" page=""/>
+  </BaseVariables>
+  <CodingSchemeRef schemer="iqb-schemer@2.5" schemeType="iqb@3.0" lastChange="2026-05-12T15:09:15.992Z">MZTA12.vocs</CodingSchemeRef>
+  <DerivedVariables>
+    <Variable id="01" type="string" format="" nullable="false" multiple="false"/>
+  </DerivedVariables>
+</Unit>

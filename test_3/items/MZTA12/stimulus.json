@@ -1,0 +1,30 @@
+{
+  "runtimeCompatibilityVersion" : "10.3.0",
+  "itemName" : "MZTA12",
+  "itemWidth" : 1024,
+  "itemHeight" : 768,
+  "tasks" : [ "Task01" ],
+  "resources" : [ ],
+  "externalResources" : [ {
+    "pathInZip" : "external-resources\\index.html",
+    "size" : 436,
+    "type" : "urlTarget"
+  } ],
+  "dependencies" : [ ],
+  "variables" : [ {
+    "name" : "V_audio_2",
+    "type" : "number"
+  }, {
+    "name" : "V_01a",
+    "type" : "string"
+  }, {
+    "name" : "V_01b",
+    "type" : "string"
+  }, {
+    "name" : "V_01c",
+    "type" : "string"
+  }, {
+    "name" : "V_01d",
+    "type" : "string"
+  } ]
+}

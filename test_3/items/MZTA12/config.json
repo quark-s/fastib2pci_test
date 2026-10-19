@@ -1,0 +1,553 @@
+{
+  "runtimeCompatibilityVersion" : "10.3.0",
+  "name" : "MZTA12",
+  "pages" : [ {
+    "name" : "page1",
+    "isRightToLeft" : false,
+    "closable" : true,
+    "content" : {
+      "type" : "CbaContainer",
+      "config" : {
+        "position" : {
+          "x" : 0,
+          "y" : 0,
+          "width" : 1024,
+          "height" : 768
+        },
+        "font" : {
+          "name" : "Arial",
+          "size" : 11,
+          "alignmentHorizontal" : "left",
+          "bold" : false,
+          "italic" : false,
+          "underlined" : false
+        },
+        "color" : {
+          "text" : {
+            "default" : "rgba(0, 0, 0, 1)",
+            "disabled" : "rgba(167, 166, 170, 1)"
+          },
+          "background" : {
+            "default" : "rgba(255, 255, 255, 1)"
+          }
+        },
+        "border" : {
+          "style" : "none",
+          "width" : 0,
+          "radius" : 0,
+          "color" : {
+            "default" : "rgba(255, 255, 255, 1)",
+            "disabled" : "rgba(210,210,210,1)"
+          }
+        },
+        "transform" : { },
+        "state" : {
+          "disabled" : false,
+          "selected" : false,
+          "hidden" : false
+        },
+        "text" : { },
+        "image" : {
+          "displayMode" : "none"
+        },
+        "cursor" : {
+          "standard" : "auto"
+        },
+        "tabIndex" : -1,
+        "event" : { },
+        "classifiers" : [ ],
+        "link" : { },
+        "userDefinedId" : "$1634667018594200",
+        "pageEditId" : "_6rxQgFajEeuMhrHBi5UcKQ",
+        "trace" : {
+          "skipTrace" : false,
+          "type" : "Container"
+        },
+        "autoLayoutLayer" : "none",
+        "cssClassNames" : [ "Frame" ],
+        "contributeVariable" : true,
+        "cbaChildren" : [ {
+          "type" : "CbaContainer",
+          "config" : {
+            "position" : {
+              "x" : 0,
+              "y" : 0,
+              "width" : 1024,
+              "height" : 768
+            },
+            "font" : {
+              "name" : "Arial",
+              "size" : 11,
+              "alignmentHorizontal" : "left",
+              "bold" : false,
+              "italic" : false,
+              "underlined" : false
+            },
+            "color" : {
+              "text" : {
+                "default" : "rgba(0, 0, 0, 1)",
+                "disabled" : "rgba(167, 166, 170, 1)"
+              },
+              "background" : {
+                "default" : "rgba(0,0,0,0)",
+                "selected" : "rgba(0,0,0,0)"
+              }
+            },
+            "border" : {
+              "style" : "none",
+              "width" : 0,
+              "radius" : 0,
+              "color" : {
+                "default" : "rgba(255, 255, 255, 1)",
+                "disabled" : "rgba(210,210,210,1)"
+              }
+            },
+            "transform" : { },
+            "state" : {
+              "disabled" : false,
+              "selected" : false,
+              "hidden" : false
+            },
+            "text" : { },
+            "image" : {
+              "displayMode" : "none"
+            },
+            "cursor" : {
+              "image" : ""
+            },
+            "tabIndex" : -1,
+            "event" : { },
+            "classifiers" : [ ],
+            "link" : { },
+            "userDefinedId" : "$1634667018631800",
+            "pageEditId" : "_7iBjEFajEeuMhrHBi5UcKQ",
+            "trace" : {
+              "skipTrace" : false,
+              "type" : "Panel"
+            },
+            "autoLayoutLayer" : "none",
+            "cssClassNames" : [ "Panel" ],
+            "contributeVariable" : true,
+            "cbaChildren" : [ {
+              "type" : "CbaExternalPageFrame",
+              "config" : {
+                "position" : {
+                  "x" : 15,
+                  "y" : 15,
+                  "width" : 994,
+                  "height" : 735
+                },
+                "font" : {
+                  "name" : "Arial",
+                  "size" : 11,
+                  "alignmentHorizontal" : "left",
+                  "bold" : false,
+                  "italic" : false,
+                  "underlined" : false
+                },
+                "color" : {
+                  "text" : {
+                    "default" : "rgba(0, 0, 0, 1)",
+                    "disabled" : "rgba(167, 166, 170, 1)"
+                  },
+                  "background" : {
+                    "default" : "rgba(0,0,0,0)",
+                    "selected" : "rgba(0,0,0,0)"
+                  }
+                },
+                "border" : {
+                  "style" : "none",
+                  "width" : 0,
+                  "radius" : 0,
+                  "color" : {
+                    "default" : "rgba(0, 0, 0, 1)",
+                    "disabled" : "rgba(210,210,210,1)"
+                  }
+                },
+                "transform" : { },
+                "state" : {
+                  "disabled" : false,
+                  "selected" : false,
+                  "hidden" : false
+                },
+                "text" : { },
+                "image" : {
+                  "displayMode" : "none"
+                },
+                "cursor" : {
+                  "standard" : "auto"
+                },
+                "tabIndex" : -1,
+                "event" : { },
+                "classifiers" : [ ],
+                "link" : { },
+                "userDefinedId" : "$1665252531218000",
+                "pageEditId" : "_Yh5dcKazEfGP1_e-dvsg1g",
+                "trace" : {
+                  "skipTrace" : false,
+                  "type" : "ExternalPageFrame"
+                },
+                "autoLayoutLayer" : "none",
+                "cssClassNames" : [ "ExternalPageFrame" ],
+                "contributeVariable" : true,
+                "pageAddress" : "index.html"
+              }
+            } ]
+          }
+        } ],
+        "scoringResultPerMember" : false,
+        "selectGroups" : [ {
+          "name" : "/page=page1/index=0",
+          "blockSelectionChanges" : true,
+          "enforceSingleSelect" : true,
+          "allowDeselect" : true
+        } ],
+        "propagationGroups" : [ {
+          "name" : "/page=page1/index=0",
+          "memberIndexPaths" : [ ]
+        } ]
+      }
+    }
+  } ],
+  "valueMaps" : [ ],
+  "variables" : [ {
+    "name" : "V_audio_2",
+    "type" : "number",
+    "value" : -99.0,
+    "calculatedValue" : {
+      "operator" : "numberToString",
+      "params" : [ {
+        "name" : "expression",
+        "value" : {
+          "operator" : "getVariable",
+          "params" : [ {
+            "name" : "name",
+            "value" : "V_audio_2"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "name" : "V_01a",
+    "type" : "string",
+    "calculatedValue" : {
+      "operator" : "getVariable",
+      "params" : [ {
+        "name" : "name",
+        "value" : "V_01a"
+      } ]
+    }
+  }, {
+    "name" : "V_01b",
+    "type" : "string",
+    "calculatedValue" : {
+      "operator" : "getVariable",
+      "params" : [ {
+        "name" : "name",
+        "value" : "V_01b"
+      } ]
+    }
+  }, {
+    "name" : "V_01c",
+    "type" : "string",
+    "calculatedValue" : {
+      "operator" : "getVariable",
+      "params" : [ {
+        "name" : "name",
+        "value" : "V_01c"
+      } ]
+    }
+  }, {
+    "name" : "V_01d",
+    "type" : "string",
+    "calculatedValue" : {
+      "operator" : "getVariable",
+      "params" : [ {
+        "name" : "name",
+        "value" : "V_01d"
+      } ]
+    }
+  } ],
+  "implicitVariables" : [ ],
+  "statemachine" : {
+    "timedEvents" : [ ],
+    "statePageAssignments" : [ {
+      "state" : "ST_Running",
+      "pageName" : "page1",
+      "areaType" : "main",
+      "areaName" : "standard"
+    } ],
+    "states" : [ {
+      "id" : "ST_Start",
+      "transitions" : [ {
+        "target" : "ST_Running",
+        "cond" : true
+      } ],
+      "states" : [ ]
+    }, {
+      "id" : "ST_Running",
+      "transitions" : [ {
+        "event" : "EV_nextTask",
+        "actions" : [ {
+          "operator" : "postponeTaskSwitch",
+          "params" : [ {
+            "name" : "switchCall",
+            "value" : {
+              "deferred" : {
+                "operator" : "nextTask",
+                "params" : [ ]
+              }
+            }
+          } ]
+        } ]
+      }, {
+        "event" : "EV_previousTask",
+        "actions" : [ {
+          "operator" : "postponeTaskSwitch",
+          "params" : [ {
+            "name" : "switchCall",
+            "value" : {
+              "deferred" : {
+                "operator" : "previousTask",
+                "params" : [ ]
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "states" : [ ]
+    } ]
+  },
+  "tasks" : [ {
+    "name" : "Task01",
+    "withEditContextMenu" : false,
+    "initialPage" : "page1",
+    "itemWidth" : 1024,
+    "itemHeight" : 768,
+    "traceVariableValues" : false,
+    "cssStyles" : "",
+    "itemHighlightColor" : "rgba(255, 204, 102, 1)",
+    "highlightColors" : [ ],
+    "namedCalculations" : [ {
+      "name" : "hitsAccumulated",
+      "calculation" : 0
+    }, {
+      "name" : "hitsCount",
+      "calculation" : 0
+    }, {
+      "name" : "missesAccumulated",
+      "calculation" : 0
+    }, {
+      "name" : "missesCount",
+      "calculation" : 0
+    }, {
+      "name" : "classMaxWeighted",
+      "calculation" : 0
+    }, {
+      "name" : "classMaxName",
+      "calculation" : ""
+    }, {
+      "name" : "totalResult",
+      "calculation" : {
+        "operator" : "ifThenElse",
+        "params" : [ {
+          "name" : "if",
+          "value" : {
+            "operator" : "and",
+            "params" : [ {
+              "name" : "left",
+              "value" : {
+                "operator" : "greaterEqual",
+                "params" : [ {
+                  "name" : "left",
+                  "value" : {
+                    "operator" : "evaluateNamedCalculation",
+                    "params" : [ {
+                      "name" : "calculationName",
+                      "value" : "hitsCount"
+                    } ]
+                  }
+                }, {
+                  "name" : "right",
+                  "value" : 1
+                } ]
+              }
+            }, {
+              "name" : "right",
+              "value" : {
+                "operator" : "lessEqual",
+                "params" : [ {
+                  "name" : "left",
+                  "value" : {
+                    "operator" : "evaluateNamedCalculation",
+                    "params" : [ {
+                      "name" : "calculationName",
+                      "value" : "missesCount"
+                    } ]
+                  }
+                }, {
+                  "name" : "right",
+                  "value" : 0
+                } ]
+              }
+            } ]
+          }
+        }, {
+          "name" : "then",
+          "value" : 1
+        }, {
+          "name" : "else",
+          "value" : 0
+        } ]
+      }
+    }, {
+      "name" : "nbUserInteractions",
+      "calculation" : {
+        "operator" : "nbUserInteractions",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "nbUserInteractionsTotal",
+      "calculation" : {
+        "operator" : "nbUserInteractionsTotal",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "firstReactionTime",
+      "calculation" : {
+        "operator" : "firstReactionTime",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "firstReactionTimeTotal",
+      "calculation" : {
+        "operator" : "firstReactionTimeTotal",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "taskExecutionTime",
+      "calculation" : {
+        "operator" : "taskExecutionTime",
+        "params" : [ ]
+      }
+    }, {
+      "name" : "taskExecutionTimeTotal",
+      "calculation" : {
+        "operator" : "taskExecutionTimeTotal",
+        "params" : [ ]
+      }
+    } ],
+    "scoreResult" : {
+      "attributes" : {
+        "resultText" : "",
+        "executionTimeStamp" : {
+          "operator" : "currentTimestamp",
+          "params" : [ ]
+        },
+        "nbInteractionsTotal" : {
+          "operator" : "nbUserInteractionsTotal",
+          "params" : [ ]
+        },
+        "nbInteractions" : {
+          "operator" : "nbUserInteractions",
+          "params" : [ ]
+        },
+        "reactionTimeTotal" : {
+          "operator" : "firstReactionTimeTotal",
+          "params" : [ ]
+        },
+        "reactionTime" : {
+          "operator" : "firstReactionTime",
+          "params" : [ ]
+        },
+        "execTimeTotal" : {
+          "operator" : "taskExecutionTimeTotal",
+          "params" : [ ]
+        },
+        "execTime" : {
+          "operator" : "taskExecutionTime",
+          "params" : [ ]
+        },
+        "scoreStatus" : "AUTOMATIC",
+        "classScoringModeHit" : "accumulatedWeights",
+        "classScoringModeMiss" : "accumulatedWeights",
+        "nbHits" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "hitsCount"
+          } ]
+        },
+        "nbMisses" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "missesCount"
+          } ]
+        },
+        "hitWeight" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "hitsAccumulated"
+          } ]
+        },
+        "missWeight" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "missesAccumulated"
+          } ]
+        },
+        "creditClass" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "classMaxName"
+          } ]
+        },
+        "creditWeight" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "classMaxWeighted"
+          } ]
+        },
+        "result" : {
+          "operator" : "evaluateNamedCalculation",
+          "params" : [ {
+            "name" : "calculationName",
+            "value" : "totalResult"
+          } ]
+        },
+        "name" : "Task01"
+      },
+      "lists" : [ {
+        "name" : "hitList",
+        "elements" : [ ]
+      }, {
+        "name" : "missList",
+        "elements" : [ ]
+      }, {
+        "name" : "hitClassList",
+        "elements" : [ ]
+      }, {
+        "name" : "missClassList",
+        "elements" : [ ]
+      }, {
+        "name" : "excludedVariablesList",
+        "elements" : [ ]
+      } ]
+    }
+  } ],
+  "usedResources" : {
+    "resources" : [ ],
+    "externalResources" : [ {
+      "name" : "index.html",
+      "size" : 436,
+      "type" : "urlTarget"
+    } ],
+    "fontMappings" : [ ]
+  },
+  "dependencies" : [ ]
+}
